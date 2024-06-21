@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Entrepreneurship Fundamentals",
+      "slug": "entrepreneurship-fundamentals",
+      "description": "Learn the basics of starting and running a successful business with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/entrepreneurship.jpg" 
+    },
+    {
+      "id": 2,
+      "title": "Personal Finance for Beginners",
+      "slug": "personal-finance-for-beginners",
+      "description": "Start your journey to financial independence with foundational personal finance skills taught by expert instructors.",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/finance.jpg" 
+    },
+    {
+      "id": 3,
+      "title": "Advanced Sales Techniques",
+      "slug": "advanced-sales-techniques",
+      "description": "Enhance your sales skills with advanced techniques for intermediate to advanced learners.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/sales.jpg" 
+    },
+    {
+      "id": 4,
+      "title": "Leadership Mastery",
+      "slug": "leadership-mastery",
+      "description": "Master the art of leadership with our comprehensive course covering all skill levels.",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "/courses/leadership.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Digital Marketing Strategies",
+      "slug": "digital-marketing-strategies",
+      "description": "Learn the art of digital marketing with this course designed for all levels.",
+      "price": 139.99,
+      "instructor": "Chris Davis",
+      "isFeatured": false,
+      "image": "/courses/marketing.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Business Development Fundamentals",
+      "slug": "business-development-fundamentals",
+      "description": "Dive into business development with this introductory course on the basics of growth strategies and market analysis.",
+      "price": 149.99,
+      "instructor": "Alex Wilson",
+      "isFeatured": true,
+      "image": "/courses/business-development.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Negotiation Essentials",
+      "slug": "negotiation-essentials",
+      "description": "Learn the essentials of negotiation to improve your business deals and personal interactions.",
+      "price": 159.99,
+      "instructor": "Samantha Miller",
+      "isFeatured": false,
+      "image": "/courses/negotiation.jpg"
+    },
+    {
+      "id": 8,
+      "title": "E-commerce Mastery",
+      "slug": "e-commerce-mastery",
+      "description": "Create compelling online businesses with our course designed for beginners to advanced users.",
+      "price": 169.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/ecommerce.jpg"
+    },
+    {
+      "id": 9,
+      "title": "History of Entrepreneurship",
+      "slug": "history-of-entrepreneurship",
+      "description": "Explore the rich history of entrepreneurship from its origins to the present day.",
+      "price": 179.99,
+      "instructor": "Grace Lee",
+      "isFeatured": false,
+      "image": "/courses/entrepreneurship-history.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Investment Strategies",
+      "slug": "investment-strategies",
+      "description": "Discover the techniques of successful investing to build and grow your wealth.",
+      "price": 189.99,
+      "instructor": "Ethan Moore",
+      "isFeatured": true,
+      "image": "/courses/investment.jpg"
+    }
+  ]
+}
