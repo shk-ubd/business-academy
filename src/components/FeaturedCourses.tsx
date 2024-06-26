@@ -3,7 +3,6 @@ import React from 'react'
 import courseData from "../data/courses.json"
 import Link from 'next/link'
 import { BackgroundGradient } from './UI/background-gradient'
-import Image from 'next/image'
 function FeaturedCourses() {
     interface Course {
         id: number,

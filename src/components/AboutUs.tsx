@@ -52,7 +52,7 @@ const dummyContent = [
           Founded in 2020, Business School was born out of a passion for entrepreneurship and a desire to make high-quality business education accessible to everyone. Our mission is to nurture and develop the next generation of business leaders by offering comprehensive courses, mentorship, and real-world insights.
         </p>
         <p className="text-white/75">
-          Since our inception, we've helped thousands of students turn their business ideas into reality. Our programs are designed to be practical and hands-on, ensuring that you gain the skills and knowledge needed to thrive in today's competitive market.
+          Since our inception, we&apos;ve helped thousands of students turn their business ideas into reality. Our programs are designed to be practical and hands-on, ensuring that you gain the skills and knowledge needed to thrive in today&apos;s competitive market.
         </p>
       </>
     ),
@@ -94,7 +94,7 @@ const dummyContent = [
         text={
           {
             heading: "Maria Rodriguez",
-        description: ' CEO of MarketMinds: "The real-time market insights have transformed the way I approach my business strategy. Staying ahead of the competition has never been easier."',
+        description: ' CEO of MarketMinds: The real-time market insights have transformed the way I approach my business strategy. Staying ahead of the competition has never been easier.',
         image: "https://images.unsplash.com/photo-1614786269829-d24616faf56d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             }
             }/>
@@ -102,7 +102,7 @@ const dummyContent = [
         text={
           {
             heading: "James Lee",
-            description: 'Project Manager at Visionary Ventures: "This platforms collaborative tools have made teamwork more efficient and productive. Our projects are now completed faster and with better results."',
+            description: 'Project Manager at Visionary Ventures: This platforms collaborative tools have made teamwork more efficient and productive. Our projects are now completed faster and with better results.',
             image: "https://images.unsplash.com/photo-1595956553066-fe24a8c33395?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             }
             }/>
