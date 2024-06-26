@@ -30,7 +30,7 @@ function FeaturedCourses() {
             </div>
             <div className='mb-10 mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
                 {featuredCourses.map((course)=>(
-                       <div key={course.id} className="flex justify-center">
+                       <div key={course.id} className="flex justify-center min-h-52">
                        <BackgroundGradient
                        className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                            <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
