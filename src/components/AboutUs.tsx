@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-// import { calsans } from "@/fonts/calsans";
 import Image from "next/image";
-import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./UI/tracing-beam";
 import { OverlayCard } from "./OverlayCard";
 
@@ -14,7 +12,7 @@ export default function AboutUs() {
           <h1 className="text-2xl md:text-5xl text-center font-sans font-bold mb-8 text-white">About Us</h1>
           <p className="text-white/75 text-center">Welcome to Business Academy, where we empower aspiring entrepreneurs and business professionals to achieve their dreams. Our mission is to provide top-notch education, resources, and a supportive community to help you succeed in the competitive world of business.</p>
         </div>
-        {dummyContent.map((item, index) => (
+        {content.map((item: Content, index) => (
           <div key={`content-${index}`} className="mb-10">
             {/* <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
               {item.badge}
@@ -43,7 +41,13 @@ export default function AboutUs() {
   );
 }
 
-const dummyContent = [
+interface Content {
+  title: string;
+  description: JSX.Element;
+  image?: string;
+}
+
+const content = [
   {
     title: "Our Mission and Story",
     description: (
@@ -56,8 +60,7 @@ const dummyContent = [
         </p>
       </>
     ),
-    image:
-      "https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://images.unsplash.com/photo-1521316730702-829a8e30dfd0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "What We Offer",
